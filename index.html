@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Advanced - Video Part 1</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Aula de HTML Avançado - Desafio Hover no Video para mostrar os Controles</h1>
+    <div class="container">
+
+        <video id="video1" preload="metadata" class="video"
+            src="https://geradigital.com/prog_br/_assets/EXP_Demi_Pair.mp4"
+            poster="https://geradigital.com/prog_br/_assets/yt_capa_Demi_Pair.png">
+
+        </video>
+
+        <div class="controle">
+            <img class="btn" onclick="rewind()" src="https://geradigital.com/prog_br/_assets/15_sec_backward.png"
+                alt="">
+            <img class="btn" onclick="forward()" src="https://geradigital.com/prog_br/_assets/15_sec_forward.png"
+                alt="">
+            <img class="btn" onclick="play()" src="https://geradigital.com/prog_br/_assets/play.png" alt="Play">
+            <img class="btn" onclick="stop()" src="https://geradigital.com/prog_br/_assets/stop.png" alt="Stop">
+            <img class="btn" onclick="speedDown()" src="https://geradigital.com/prog_br/_assets/fast_backward.png"
+                alt="Slow Down">
+            <img class="btn" onclick="speedUp()" src="https://geradigital.com/prog_br/_assets/fast_forward.png"
+                alt="Speed Up">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
